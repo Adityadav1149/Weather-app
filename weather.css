@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    text-align: center;
+    border: 15px inset blue;
+    min-height: 250px;
+    font-family: cursive;
+    border-radius: 10px 50px;
+    padding: 10px;
+    background: #fff;
+}
+
+input[type=submit]{
+    background: #cc3366;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 5px;
+    margin-top: 4px;
+    font-size: 24px;
+    height: 50px;
+    width: 200px;
+    font-family: cursive;
+}
+
+input[type=submit]:hover{
+    background: #00ff00;
+}
+
+input[type=text]{
+    font-family: cursive;
+    text-align: center;
+    font-size: 24px;
+    color: #990000;
+    height: 60px;
+    width: 400px;
+    border-radius: 10px;
+}
