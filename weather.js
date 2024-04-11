@@ -30,11 +30,17 @@ function showWeatherInfo(data) {
 
     <h3>City Name: ${data.name}</h3>
 
-    <h3>City Coordinate: Longitude: ${data.coord.lon}&deg; , Latitude: ${data.coord.lat}&deg;</h3>
+    <h3>City Coordinate: Longitude: ${data.coord.lon}&deg; , Latitude: ${
+    data.coord.lat
+  }&deg;</h3>
 
-    <h3>Temperature: ${data.main.temp}&deg;F (In Celcius: ${Math.round(data.main.temp - 273.15)}&deg;C)</h3>
+    <h3>Temperature: ${data.main.temp}&deg;F (In Celcius: ${Math.round(
+    data.main.temp - 273.15
+  )}&deg;C)</h3>
 
-    <h3>Weather: ${data.weather[0].main} , Description: ${data.weather[0].description} <img src=${imgIcon} height="30" width="45"></h3>
+    <h3>Weather: ${data.weather[0].main} , Description: ${
+    data.weather[0].description
+  } <img src=${imgIcon} height="30" width="45"></h3>
 
     <h3>Humidity: ${data.main.humidity}%</h3>
 
